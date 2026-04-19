@@ -90,3 +90,5 @@
    -> It is an implemented class for EvaluationContext.
 
 --------------------------------------------------------------------------------------------------------
+
+=> NOTE - SPEL expressions are typically used in the context of spring components that can interpret and evaluate these expressions such as Xml configurations, @Value annotations, @Conditional annotations, etc.
