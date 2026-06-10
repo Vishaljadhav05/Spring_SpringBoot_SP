@@ -36,3 +36,26 @@
             - It provides exception translation i.e. converting hibernate-specific exceptions into Spring's DataAccessException hierarchy.
 
 ================================================================================================================================
+
+
+=> we need some dependencies or jar files :-
+
+1. Spring Dependencies 
+    a. spring-core
+    b. spring-context
+    c. spring-orm
+
+2. Hibernate Dependencies 
+    a. hibernate-core relocation
+
+3. Jakarta Persistance API
+    a. jakarta.persistence API
+	
+4. Jakarta Transcation API
+	a. jakarta.transaction-api
+    
+5. Mysql Connector Dependency
+    b. mysql-connector-java
+
+6. And for JavaConfigFile
+ -> AOP Schema or Transaction's Schema
