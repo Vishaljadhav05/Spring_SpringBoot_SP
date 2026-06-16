@@ -82,3 +82,10 @@
 
 =====================================================================================================
 
+=> Need to download the Javax Persistent API
+1. Search Javax Persistent API schema on browser.
+2. Go to oracle website.
+3. Then go to Persistent 2.2 XSD.
+4. Then Download.
+5. Open & Copy the schema and use.
+
