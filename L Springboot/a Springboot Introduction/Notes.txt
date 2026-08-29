@@ -1,0 +1,94 @@
+=> NOTE :- Before learning springboot, we should have the knowledge of spring framework.
+
+=> Core concepts we should know :-
+    -> Why we need spring framework ?
+        = Dependency Injection [loosly coupled]
+        = Lightweight, simple and easy
+        = Can be integrated with other frameworks
+          etc
+
+    -> What is bean ?
+        = Bean is simple java object.
+        = Bean is the backbone in spring application which are managed by Spring IOC container.
+
+    -> How many ways we can create beans ?
+        = We can create beans by 3 ways :-
+            1. by using spring xml configuration.
+            2. by using @Component annotation [used at class level].
+            3. by using @Bean (and @Configuration) annotation [used at method level].
+
+==========> Springboot is used to boot our spring application <==========
+
+================================================================================
+
+=> Springboot :-
+    -> Springboot is an open source java-based framework which is developed by Pivotal Team.
+    -> It is used to create a stand-alone and production-grade spring-based application that we can "just run" i.e. it provides an easier way to start springboot application.
+    -> Springboot framework is developed on the top of core spring framework.
+
+    -> Advantages of Springboot :-
+        1. It follows "Opinionated Defaults Configuration" approach to reduce developer efforts.
+        2. It avoids boilerplate code, annotations and xml configurations which in turn reduces the developer time and increases the productivity.
+        3. It can be easily integrated with Spring Modules i.e. Spring JDBC, Spring AOP, Spring Security etc.
+        4. It provides embedded HTTP servers i.e. tomcat, jetty etc.
+        5. It provides CLI (Command Line Interface) tool to develop and test springboot application from command prompt in an easy and quick way.
+        6. It provides a lot of plugins to develop and test springboot applications.
+        7. It provides a lot of plugins to work with embedded and in-memory databases.
+           etc
+
+    -> Key components of Springboot Framework :-
+        1. Springboot Starters
+        2. Springboot AutoConfigurator
+        3. Springboot CLI
+        4. Springboot Actuators
+
+--------------------------------------------------------------------------------
+
+1. Springboot Starters :-
+    -> Springboot starters are the "dependency descriptors".
+    -> Springboot provides a number of starters that allow us to add jar files in the classpath.
+    -> In springboot, all the starters follows a similar name pattern i.e. "spring-boot-starter-*" for example spring-boot-starter-web, spring-boot-starter-jdbc etc.
+
+    -> Springboot starters are divided in 3 categories :-
+        a. Application Starters
+            = spring-boot-starter
+            = spring-boot-starter-web
+            = spring-boot-starter-jdbc
+            = spring-boot-starter-aop
+            = spring-boot-starter-test
+              etc
+        b. Technical Starters
+            = spring-boot-starter-tomcat
+            = spring-boot-starter-jetty
+            = spring-boot-starter-logging
+            = spring-boot-starter-log4j
+              etc
+        c. Production Starters
+            = spring-boot-starter-actuators
+
+    -> NOTE : "spring-boot-starter" name is reserved for official spring boot artifacts.
+
+    -> Syntax of springboot starters :-
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>4.1.0</version>
+            </dependency>
+
+    -> There are many third party starters which we can include in our applications.
+
+    -> Third party starters follows the below name pattern :-
+        = projectname-spring-boot-starter
+
+--------------------------------------------------------------------------------
+
+2. Springboot AutoConfigurator :-
+    -> Springboot AutoConfigurators, automatically configures the spring application configurations based on the jar dependencies that we have added.
+
+    -> All auto-configuration logic is implemented in "spring-boot-autoconfigure.jar".
+
+    -> Springboot AutoConfigurator provides one annotation i.e. @SpringBootApplication.
+
+        = @SpringBootApplication = @Configuration + @ComponentScan + 
+          @EnableAutoConfiguration
+--------------------------------------------------------------------------------
