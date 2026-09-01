@@ -1,0 +1,8 @@
+=> What is groovy :-
+    -> Groovy is a programming language whose syntax is similar to java.
+    -> It follows the "Object Oriented Programming" paradigm.
+    -> It is developed by Apache Foundation.
+    -> It can be used as a scripting language for java platform.
+    -> It is both static and dynamic language with features similar to python, ruby, smalltalk etc.
+
+================================================================================
