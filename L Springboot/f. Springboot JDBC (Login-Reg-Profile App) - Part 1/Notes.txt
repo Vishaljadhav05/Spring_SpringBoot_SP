@@ -1,0 +1,6 @@
+Samay Collection – Frontend Project
+=> Project Overview
+
+Samay Collection is a simple frontend website created to showcase a collection of products in a clean and user-friendly interface.
+
+The website focuses on presenting products with their images, names, prices, and other basic information. It is designed as a frontend-only project and does not currently include a backend or database.
