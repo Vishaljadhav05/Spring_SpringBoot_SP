@@ -1,0 +1,7 @@
+=> Spring Boot Registration App is a web application that allows users to register and log in through a simple,
+ user-friendly interface. It's built using Spring Boot for the backend and JSP for the frontend, following a 
+ clean layered architecture (Controller → Service → DAO) to separate concerns and keep the code organized.
+
+=> The app includes pages for registration, login, home, profile, about us, and contact us — giving it the feel of a small, 
+complete website. It's a great example of how Spring Boot's MVC pattern works in practice, 
+connecting the frontend views to backend logic and (eventually) a database.
