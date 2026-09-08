@@ -1,0 +1,6 @@
+=> Spring Data JPA :-
+   -> Dependencies Used:-
+	1. Spring Data JPA
+	2. MySQL Driver
+	3. Spring Web
+	4. Jsper Ai (for JSP Pages)
