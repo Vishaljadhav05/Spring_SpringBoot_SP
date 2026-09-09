@@ -1,0 +1,65 @@
+=> API :-
+    -> Full form of API is Application Programming Interface.
+    -> API is an application component (or piece of code) which is used for communication between different systems over the network.
+    -> API acts as bridge between different systems or devices.
+
+    -> For example :-
+        = Login API's (google and facebook login API)
+        = Google Map API's
+        = Payment Gateway API's
+        = Airline, Bus, Train Booking API's
+        = Movie Booking API's
+        = Weather API's
+        = Youtube, Amazon, Flipkart API's etc
+          etc
+
+    -> Types of API's :-
+        1. Public or Open API's
+            = These are open to the public which can be used by anyone.
+            = These API's can be paid or free of cost.
+        2. Partner API's
+            = These API's are meant for business-to-business partnership.
+        3. Private or Internal API's
+            = These are internal to any specific enterprise application within the company.
+        4. Composite API's
+            = These combine any two or more different API's for any system or project.
+
+================================================================================
+
+=> Web Services :-
+    -> Web Services are a type of API used to exchange the data (XML or JSON) between different systems over the network.
+    -> Web services are independent of the platform on which they are developed. For example if we have created web 
+       services in java, then it can communicate with any other language also like python or php etc.
+    -> Web services use HTTP protocol.
+    -> NOTE :-
+        = All web services are API's but not all API's are web services.
+        = To test web services we will use "Postman" tool.
+    -> There are 2 types of web services :-
+        = SOAP web services
+        = RESTful web services
+
+================================================================================
+
+=> Microservices :-
+    -> Microservices is software architecture used to design an application. The idea behind the application 
+       development is that "create small independent components (or services) which performs simple task, 
+       then merge or integrate them into a single unit to build a large complex application".
+    -> Monolithic approach was replaced by Microservices.
+    -> Advantages of Microservices :-
+        = easy to scale
+        = fast to develop
+        = easy to maintain
+        = easy to test
+        = easy to deploy
+          etc
+    -> There are many technologies to develop microservices but mostly used technology is Java and its frameworks (Springboot, Spark, DropWizard, Jersey etc).
+
+================================================================================
+
+=> Resources :-
+
+=> HTTP :-
+
+=> Postman :-
+
+================================================================================
