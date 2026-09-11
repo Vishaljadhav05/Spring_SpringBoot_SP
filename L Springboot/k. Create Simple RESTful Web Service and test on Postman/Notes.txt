@@ -1,0 +1,78 @@
+=> Resources :-
+    -> Resource is the simple files i.e. html or images or data which are present on server.
+    -> To access the resource from server we use URI.
+
+--------------------------------------------------------------------------------
+
+=> HTTP :-
+    -> Full form is "Hyper Text Transfer Protocol".
+    -> HTTP is a protocol (TCP/IP based communication protocol) that is used to transfer the resources over www (world wide web).
+    -> Other common protocols are :-
+        = FTP (File Transfer Protocol)
+        = SMTP (Simple Mail Transfer Protocol)
+        = IMAP (Internet Message Access Protocol)
+        = MIME (Multipurpose Internet Mail Extension)
+          etc
+    -> HTTP was developed by Tim-Berners-Lee and his team.
+    -> HTTP request methods are :-
+        = GET
+        = POST
+        = PUT
+        = PATCH
+        = DELETE
+          etc
+
+--------------------------------------------------------------------------------
+
+=> What is difference between SOAP and REST :-
+    = SOAP : Simple Object Access Protocol.
+      REST : REpresentational State Transfer.
+
+    = SOAP : It is a "protocol" which follows a strict standard to allow communication between the client and server.
+      REST : It is an "architectural style" that does not follows any strict standard (but follows its own 6 constraints).
+
+    = SOAP cannot use REST because SOAP is a protocol without any architectural style and REST does not follows the protocol.
+      REST can use SOAP because it is an architectural style which can have protocols.
+
+    = SOAP transports the data in standard XML format.
+      REST transports the data in different formats i.e. JSON, XML, Plain Text, HTML etc.
+
+    = SOAP requires more bandwidth as compared to REST.
+      REST requires less bandwidth as compared to SOAP.
+
+    = SOAP is difficult to implement.
+      REST to easy to implement.
+
+    = SOAP is outdated web service.
+      REST is traditional web service.
+
+--------------------------------------------------------------------------------
+
+=> Difference between REST and RESTful :-
+    -> REST is the set of constraints. There are 6 main constraints :-
+        = Client-Server Architecture
+        = Stateless
+        = Uniform Interface
+        = Cacheable
+        = Layered System
+        = Code on Demand (optional)
+    -> RESTful refers to the API adhering to these constraints.
+
+=> RESTful Web Services :-
+    -> REST full form is
+        = REpresentational - it should support JSON and XML
+        = State - State means data or value of an object
+        = Transfer - transfer the state using HTTP protocol
+    -> REST was developed by Roy Fielding (he is the only one who provides the HTTP specifications).
+    -> We can develop RESTful web services in multiple frameworks i.e. JAX-RS, Springboot, Jersey etc.
+
+--------------------------------------------------------------------------------
+
+=> XML and JSON format :-
+
+--------------------------------------------------------------------------------
+
+=> Postman :-
+    -> It is a tool used to test the RESTful API
+
+================================================================================
