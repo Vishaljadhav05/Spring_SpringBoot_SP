@@ -1,0 +1,20 @@
+[
+	{
+		"id": 101,
+		"name": "Komal",
+		"gender": "Female",
+		"city" : "Ujjain"
+	},
+	{
+		"id": 102,
+		"name": "Vishal",
+		"gender": "Male",
+		"city" : "Indore"
+	},
+	{
+		"id": 103,
+		"name": "Prafull",
+		"gender": "Male",
+		"city" : "Pune"
+	}
+]
